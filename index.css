@@ -143,6 +143,12 @@ body{
     height: 47px;
 }
 
+.secondary-icon{
+    left: 12.5%;
+    right: 12.5%;
+    top: 8.33%;
+    bottom: 8.33%;
+}
 
 .teste{
     display: flex;
@@ -152,4 +158,41 @@ body{
     font-size: 28px;
     line-height: 42px;  
     gap: 1.29rem; 
+}
+
+
+.calendary{
+    display: flex;  
+    gap: 11px;  
+}
+
+
+.skills{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px 16px;
+    gap: 10px;
+    width: 127px;
+    height: 34px;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    text-align: center;
+    
+}
+
+
+.teste1{
+    display: flex;
+    gap: 1rem;
+}
+
+
+.position{
+    font-family: var(--main-font);
+    font-size: 20px;
+    line-height: 30px;
+    font-style: normal;
+    font-weight: 500;
 }
