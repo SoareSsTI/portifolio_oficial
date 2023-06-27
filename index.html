@@ -4,10 +4,18 @@
         <meta charset="UTF-8">
         <title>João Pedro Soares</title>
         <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="scrol.css">
         <link rel="stylesheet" href="reset.css">
     </head>
     <body>
-        <section class="section--home">
+        <div class="scroll-menu">
+            <ul>
+                <li><a class="scroll-target" href="#section-home">Home</a></li>
+                <li><a class="scroll-target" href="#section-about">Sobre Mim</a></li>
+                <li><a class="scroll-target" href="#section-experience">Experiência Profissional</a></li>
+            </ul>
+        </div>
+        <section class="section--home" id="section-home">
             <div>
                 <img class="profile" src="images/eu.png" alt="profile">
                 <h1 class="main-title">João Pedro Soares</h1>
@@ -34,7 +42,7 @@
             </div>
         </section>
         
-        <section class="second-section">
+        <section class="second-section" id="section-about">
             <div class="secondary-title white-text">
                 <img src="icons/Vector.svg" alt="icons">
                 <h2>Sobre mim</h2>
@@ -44,9 +52,8 @@
                 <p>Buscando sempre por desenvolvimento profissional e pessoal através de desafios. Parto do entendimento que a área da tecnologia a cada minuto se atualiza, requerendo assim que o profissional assuma uma iniciativa mais ativa, baseado nisso busquei me aprofundar e capacitar no ramo da programação.</p>
             </div>
         </section>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         
-        <section class="third-section">
+        <section class="third-section" id="section-experience">
             <div class="secondary-title white-text">
                 <img src="icons/Vector-1.svg" alt="icons">
                 <h2>Experiência profissional</h2>
@@ -91,7 +98,11 @@
                     <div>
                         <p class="skills">Tesseract</p>
                     </div>
+                    <div>
+                        <p class="skills">Scrum</p>
+                    </div>
                 </div>
+                
             </div>
 
 
@@ -112,65 +123,35 @@
 
                 <div class="teste1">
                     <div>
-                        <p></p>
+                        <p class="skills">Python</p>
                     </div>
 
                     <div>
-                        <p></p>
+                        <p class="skills">Django</p>
                     </div>
 
                     <div>
-                        <p></p>
+                        <p class="skills">Pandas</p>
                     </div>
 
                     <div>
-                        <p></p>
+                        <p class="skills">Selenium</p>
                     </div>
 
                     <div>
-                        <p></p>
+                        <p class="skills">MySQL</p>
                     </div>
+
+                    <div>
+                        <p class="skills">JavaScript</p>
+                    </div>
+                    <div>
+                        <p class="skills">Scrum</p>
+                    </div>
+                    
                 </div>
             </div>
 
-
-            <div class="container white-text">
-                <div class="teste">
-                    <img class="icon" src="icons/b.svg" alt="icon">
-                    <p>Secretaria de Estado de Planejamento e Gestão</p>
-                </div>
-
-                <div class="calendary">
-                    <img class="secondary-icon" src="icons/calendar.svg" alt="calendar">
-                    <p>Nov. de 2021 - Mar. de 2022</p>
-                </div>
-
-                <div>
-                    <p class="position">Desenvolvedor Back-end</p>
-                </div>
-
-                <div class="teste1">
-                    <div>
-                        <p></p>
-                    </div>
-
-                    <div>
-                        <p></p>
-                    </div>
-
-                    <div>
-                        <p></p>
-                    </div>
-
-                    <div>
-                        <p></p>
-                    </div>
-
-                    <div>
-                        <p></p>
-                    </div>
-                </div>
-            </div>
 
 
             <div class="container white-text">
@@ -185,29 +166,66 @@
                 </div>
 
                 <div>
-                    <p class="position">Desenvolvedor Back-end</p>
+                    <p class="position">Desenvolvedor Front-end</p>
                 </div>
 
                 <div class="teste1">
-                    <div>
-                        <p></p>
+                    <div class="skills">
+                        <p>CSS</p>
                     </div>
 
-                    <div>
-                        <p></p>
+                    <div class="skills">
+                        <p>HTML5</p>
                     </div>
 
-                    <div>
-                        <p></p>
+                    <div class="skills">
+                        <p>Markdown</p>
                     </div>
 
-                    <div>
-                        <p></p>
+                    <div class="skills">
+                        <p>Flask</p>
                     </div>
 
-                    <div>
-                        <p></p>
+                    <div class="skills">
+                        <p>Python</p>
                     </div>
+                </div>
+            </div>
+
+
+
+            <div class="container white-text">
+                <div class="teste">
+                    <img class="icon" src="icons/b.svg" alt="icon">
+                    <p>Secretaria de Estado de Planejamento e Gestão</p>
+                </div>
+
+                <div class="calendary">
+                    <img class="secondary-icon" src="icons/calendar.svg" alt="calendar">
+                    <p>Nov. de 2021 - Mar. de 2022</p>
+                </div>
+
+                <div>
+                    <p class="position">Suporte</p>
+                </div>
+
+                <div class="teste1">
+                    <div class="skills--1">
+                        <p>Suporte Técnico</p>
+                    </div>
+
+                    <div class="skills">
+                        <p>Formatação </p>
+                    </div>
+
+                    <div class="skills">
+                        <p>Help Desk</p>
+                    </div>
+
+                    <div class="skills">
+                        <p>Manutenção</p>
+                    </div>
+
                 </div>
             </div>
 
@@ -228,30 +246,33 @@
                 </div>
 
                 <div class="teste1">
-                    <div>
-                        <p></p>
+                    <div class="skills--2">
+                        <p>Lógica de programação</p>
                     </div>
 
-                    <div>
-                        <p></p>
+                    <div class="skills">
+                        <p>Figma</p>
                     </div>
 
-                    <div>
-                        <p></p>
+                    <div class="skills">
+                        <p>Docência</p>
                     </div>
 
-                    <div>
-                        <p></p>
+                    <div class="skills">
+                        <p>HTML5</p>
                     </div>
 
-                    <div>
-                        <p></p>
-                    </div>
                 </div>
             </div>
 
         </section>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <footer>
+            <div class="footer">
 
+                <p class="white-text">Desenvolvimento: João Pedro Soares</h1>
+                <p class="white-text">Design: Érick Fernandes</h1>
+            </div>
+        </footer>
+        <script src="main.js"></script>
     </body>
 </html>

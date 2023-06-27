@@ -1,0 +1,30 @@
+
+/* Estilos para o menu lateral */
+.scroll-menu {
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    z-index: 9999;
+}
+
+.scroll-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.scroll-menu li {
+    margin-bottom: 10px;
+}
+
+.scroll-menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Estilos para destacar o link ativo no menu */
+.scroll-menu a.active {
+    color: #ff0000;
+}
